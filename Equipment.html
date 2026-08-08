@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>GreenBite</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    >
+    <link rel="icon" type="image/png" href="img/favicon.png">
+      <!-- PWA manifest -->
+  <link rel="manifest" href="manifest.json">
+  <meta name="theme-color" content="#4CAF50">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+  </head>
+<body class="equipment-page">
+
+  
+    <!-- Header with Navigation -->
+     <header>
+        <div class="container">
+         
+            <nav>
+              <a href="index.html" class="logo">GreenBite</a>
+                
+                <div class="hamburger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+                <ul class="nav-links">
+                   
+                    <li class="nav-link" style="--i: 1.35s"><a href="index.html"> Home</a></li>
+                    <li class="nav-link" style="--i: 1.35s"><a href="Recipie.html"> Recipes</a></li>
+                    <li class="nav-link" style="--i: .6s"><a href="Calculator.html"> Calculator</a></li>
+                    
+                    <li class="nav-link" style="--i: 1.1s">
+                        <a href="#"> Workouts </a>
+                        <div class="dropdown">
+                            <ul>
+                                <li class="dropdown-link"><a href="Bodyparts.html"> Body parts</a></li>
+                                <li class="dropdown-link"><a href="Equipment.html"> Gear Needed</a></li>
+                                <li><div class="arrow"></div></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-link" style="--i: 1.35s"><a href="Mindfulness.html"> Mindfulness </a></li>
+                    <li class="nav-link" style="--i: 1.35s"><a href="Contact.html"> Contact </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+     <div id="bodypartheader">
+    <h1 >GreenBite Workout Planner</h1>
+    <p  id="para">Choose your equipment and let’s create your plan 🔥</p>
+    </div>
+  <main>
+    <section class="intro">
+      <h2>Step 2: Select Equipment</h2>
+      <p>Don’t worry if you don’t have any equipment — we’ve got you covered with bodyweight workouts too!</p>
+    
+
+    <form id="equipForm" class="form-box">
+      <label for="equipment">Choose Equipment:</label>
+      <select id="equipment">
+        <option value="None">None (Bodyweight)</option>
+        <option value="Dumbbells">Dumbbells</option>
+      </select>
+      <button type="submit">Generate Workout</button>
+    </form>
+    </section>
+
+    <!-- Workout Plan Display -->
+    <section id="workout-plan">
+      <h2>Workout Plan</h2>
+    </section>
+
+            <div class="timer-container">
+                <h3 class="timer-title">Exercise Timer</h3>
+                <div id="timer">00:30</div>
+                <div class="timer-controls">
+                    <button id="startTimer" class="timer-btn start-btn">Start</button>
+                    <button id="pauseTimer" class="timer-btn pause-btn">Pause</button>
+                    <button id="resetTimer" class="timer-btn reset-btn">Reset</button>
+                </div>
+            </div>
+
+    <section class="motivation">
+      <h3>✨ Daily Motivation</h3>
+      <blockquote>"The body achieves what the mind believes."</blockquote>
+    </section>
+  </main>
+
+  <audio id="beepSound" src="https://actions.google.com/sounds/v1/alarms/beep_short.ogg"></audio>
+  
+  
+  <footer>
+  <div class="footer-widget">
+    <!-- About -->
+    <div class="about-widget">
+      <h3>About GreenBite</h3>
+      <p>Our mission is to make wellness simple, practical, and enjoyable—whether you’re starting your fitness 
+        journey, exploring clean eating, building daily mindfulness habits. With GreenBite, small steps 
+        lead to big changes for a healthier, happier you🌱💚</p>
+      <div class="social-widget">
+        <a href="https://facebook.com" aria-label="Facebook">
+        <i class="fa-brands fa-facebook-f"></i>
+      </a>
+      <a href="https://instagram.com" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://twitter.com" aria-label="Twitter">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+
+        <a href="https://pinterest.com">
+          <i class="fa-brands fa-pinterest"></i>
+        </a>
+      </div>
+
+    </div>
+
+    <!-- Quick Links -->
+    <div class="links-widget">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+          <li><a href="Recipie.html">Recipes</a></li>
+          <li><a href="Calculator.html">Nutrition Calculator</a></li>
+          <li><a href="Bodyparts.html">Workouts</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Recent Highlights -->
+    <div class="recent-widget">
+      <h3>Wellness Highlights</h3>
+      <ul>
+        <li>🌿 Daily Health Tip</li>
+        <li>🥗 Fresh Recipes</li>
+        <li>🧘 Guided Meditation</li>
+      </ul>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="contact-widget">
+      <h3>Newsletter</h3>
+      <p>Subscribe to get daily wellness tips</p>
+      <form id="newsletterForm">
+        <input type="email" id="emailInput" placeholder="Enter your email" required>
+        <input type="submit" value="Subscribe">
+      </form>
+      <p id="subscriptionMsg"></p>
+    </div>
+  </div>
+
+  <!-- Footer Menu -->
+  <div class="footer-menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+          <li><a href="Recipie.html">Recipes</a></li>
+          <li><a href="Calculator.html">Nutrition Calculator</a></li>
+          <li><a href="Bodyparts.html">Workouts</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Credits -->
+  <div class="footer-credit">
+    <p>&copy; 2025 GreenBite Wellness | Designed with ❤️ for a healthier future</p>
+  </div>
+</footer>
+ 
+<script src="script.js"></script>
+</body>
+</html>
+
