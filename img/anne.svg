@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Anee Kendrick">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8BC34A"/>
+      <stop offset="55%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#8BC34A"/>
+    </linearGradient>
+    <radialGradient id="v" cx="50%" cy="42%" r="72%">
+      <stop offset="55%" stop-color="#000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000" stop-opacity=".22"/>
+    </radialGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#g)"/>
+  <g opacity=".16" fill="none" stroke="#ffffff" stroke-width="2">
+    <circle cx="64" cy="80" r="120"/>
+    <circle cx="344" cy="328" r="96"/>
+  </g>
+  <g transform="translate(0 -14) scale(4)"
+        fill="none" stroke="#ffffff" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" opacity=".92"><circle cx="50" cy="26" r="12"/>
+           <path d="M50 42c-16 0-26 10-26 24v14h52V66c0-14-10-24-26-24Z"/></g>
+  <text x="50%" y="374" text-anchor="middle" font-family="Segoe UI,Roboto,Helvetica,Arial,sans-serif"
+         font-size="25" font-weight="600" fill="#ffffff" opacity=".95">Anee Kendrick</text>
+  <rect width="400" height="400" fill="url(#v)"/>
+</svg>

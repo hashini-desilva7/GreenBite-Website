@@ -462,7 +462,10 @@ soundButtons.forEach(button => {
   
     if ('serviceWorker' in navigator) {
   window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js')
+    /* relative path: on a project Pages site the app is served from
+       /GreenBite-Website/, so an absolute "/service-worker.js" would 404
+       and register outside the site scope. */
+    navigator.serviceWorker.register('./service-worker.js')
       .then(reg => {
         console.log('Service Worker registered:', reg);
       })

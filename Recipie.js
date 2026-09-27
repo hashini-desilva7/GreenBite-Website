@@ -4,7 +4,7 @@ const recipes = [
     title: "Avocado Toast",
     category: "breakfast",
     description: "Crispy toast topped with creamy avocado and seasoning.",
-    image: "img/Avocado-Toast.jpg",
+    image: "img/Avocado-Toast.svg",
     ingredients: ["2 slices of bread", "1 ripe avocado", "Salt", "Pepper", "Olive oil"],
     steps: ["Toast the bread slices.", "Mash the avocado with salt and pepper.", "Spread on toast and drizzle with olive oil."],
     nutrition: { Calories: "220", Protein: "6g", Carbs: "28g", Fat: "11g" }
@@ -13,7 +13,7 @@ const recipes = [
     title: "Quinoa Salad",
     category: "lunch",
     description: "A refreshing salad packed with protein and veggies.",
-    image: "img/Quinoa-Salad.jpg",
+    image: "img/Quinoa-Salad.svg",
     ingredients: ["1 cup quinoa", "1 cucumber", "1 tomato", "Feta cheese", "Lemon dressing"],
     steps: ["Cook quinoa and let cool.", "Chop cucumber and tomato.", "Mix everything with feta and lemon dressing."],
     nutrition: { Calories: "350", Protein: "12g", Carbs: "45g", Fat: "10g" }
@@ -22,7 +22,7 @@ const recipes = [
     title: "Grilled Salmon",
     category: "dinner",
     description: "Perfectly grilled salmon with lemon and herbs.",
-    image: "img/grilled-salmon.jpg",
+    image: "img/grilled-salmon.svg",
     ingredients: ["1 salmon fillet", "Lemon", "Garlic", "Olive oil", "Herbs"],
     steps: ["Marinate salmon with lemon, garlic, and herbs.", "Grill for 5-7 minutes each side.", "Serve hot."],
     nutrition: { Calories: "400", Protein: "35g", Carbs: "0g", Fat: "28g" }
@@ -31,7 +31,7 @@ const recipes = [
     title: "Berry Smoothie Bowl",
     category: "breakfast",
     description: "A colorful and healthy smoothie bowl topped with fresh berries and seeds.",
-    image: "img/Berry Smoothie.webp",
+    image: "img/Berry Smoothie.svg",
     ingredients: ["1 cup frozen mixed berries", "1 banana", "1/2 cup yogurt", "1 tbsp chia seeds", "1 tbsp honey"],
     steps: [
       "Blend berries, banana, and yogurt until smooth.",
@@ -44,7 +44,7 @@ const recipes = [
     title: "Chicken Wrap",
     category: "lunch",
     description: "Whole wheat wrap filled with grilled chicken, fresh veggies, and hummus.",
-    image: "img/Chicken wrap.jpg",
+    image: "img/Chicken wrap.svg",
     ingredients: ["1 whole wheat tortilla", "100g grilled chicken", "Lettuce", "Tomato slices", "2 tbsp hummus"],
     steps: [
       "Spread hummus on tortilla.",
@@ -57,7 +57,7 @@ const recipes = [
     title: "Veggie Stir-Fry",
     category: "dinner",
     description: "Quick stir-fried vegetables with soy sauce and garlic.",
-    image: "img/Vegetable-Stir-Fry.png",
+    image: "img/Vegetable-Stir-Fry.svg",
     ingredients: ["1 cup broccoli", "1 carrot", "1 bell pepper", "2 tbsp soy sauce", "1 clove garlic"],
     steps: [
       "Heat oil in a pan and sauté garlic.",
@@ -70,7 +70,7 @@ const recipes = [
     title: "Fruit Yogurt Parfait",
     category: "snack",
     description: "Layers of yogurt, granola, and fresh fruits make a perfect healthy snack.",
-    image: "img/fruit-and-yogurt-parfait.jpg",
+    image: "img/fruit-and-yogurt-parfait.svg",
     ingredients: ["1 cup yogurt", "1/2 cup granola", "1/2 cup mixed fruits", "1 tsp honey"],
     steps: [
       "Layer yogurt, granola, and fruits in a glass.",
@@ -83,7 +83,7 @@ const recipes = [
     title: "Quinoa Buddha Bowl",
     category: "lunch",
     description: "A balanced bowl with quinoa, roasted veggies, avocado, and chickpeas.",
-    image: "img/buddha-bowl.jpg",
+    image: "img/buddha-bowl.svg",
     ingredients: ["1 cup cooked quinoa", "1/2 cup roasted vegetables", "1/2 avocado", "1/2 cup chickpeas", "Lemon dressing"],
     steps: [
       "Arrange quinoa in a bowl.",
@@ -96,7 +96,7 @@ const recipes = [
     title: "Oatmeal with Fruits",
     category: "breakfast",
     description: "Warm oatmeal topped with fresh fruits and nuts.",
-    image: "img/oatmeal.webp",
+    image: "img/oatmeal.svg",
     ingredients: ["1/2 cup oats", "1 cup milk", "1 banana", "Handful of berries", "1 tsp honey"],
     steps: [
       "Cook oats with milk until soft.",
@@ -109,7 +109,7 @@ const recipes = [
     title: "Caprese Salad",
     category: "lunch",
     description: "Fresh tomatoes, mozzarella, and basil drizzled with olive oil.",
-    image: "img/caprese-salad.JPG",
+    image: "img/caprese-salad.svg",
     ingredients: ["2 tomatoes", "100g mozzarella", "Fresh basil", "Olive oil", "Salt and pepper"],
     steps: [
       "Slice tomatoes and mozzarella.",
@@ -122,7 +122,7 @@ const recipes = [
     title: "Spaghetti Aglio e Olio",
     category: "dinner",
     description: "Simple Italian pasta with garlic, olive oil, and chili flakes.",
-    image: "img/spaghetti.webp",
+    image: "img/spaghetti.svg",
     ingredients: ["200g spaghetti", "2 cloves garlic", "3 tbsp olive oil", "Red chili flakes", "Parsley"],
     steps: [
       "Cook spaghetti according to package instructions.",
@@ -135,7 +135,7 @@ const recipes = [
     title: "Veggie Wrap",
     category: "lunch",
     description: "Whole wheat wrap filled with hummus, veggies, and avocado.",
-    image: "img/Veggie-Wrap.png",
+    image: "img/Veggie-Wrap.svg",
     ingredients: ["1 whole wheat tortilla", "Hummus", "1/2 avocado", "Lettuce", "Tomato slices", "Cucumber slices"],
     steps: [
       "Spread hummus on tortilla.",
@@ -148,7 +148,7 @@ const recipes = [
     title: "Chocolate Chia Pudding",
     category: "snack",
     description: "Healthy dessert made with chia seeds and cocoa powder.",
-    image: "img/chocolate chia pudding.jpg",
+    image: "img/chocolate chia pudding.svg",
     ingredients: ["3 tbsp chia seeds", "1 cup milk", "1 tsp cocoa powder", "1 tsp honey", "Berries for topping"],
     steps: [
       "Mix chia seeds, milk, cocoa, and honey in a jar.",
@@ -161,7 +161,7 @@ const recipes = [
     title: "Grilled Veggie Skewers",
     category: "dinner",
     description: "Skewers of bell peppers, zucchini, and mushrooms grilled to perfection.",
-    image: "img/grilled-veggie-skewers.jpg",
+    image: "img/grilled-veggie-skewers.svg",
     ingredients: ["1 zucchini", "1 bell pepper", "5 mushrooms", "Olive oil", "Salt and pepper"],
     steps: [
       "Cut veggies into chunks and thread onto skewers.",
@@ -174,7 +174,7 @@ const recipes = [
     title: "Avocado Chickpea Salad",
     category: "lunch",
     description: "Protein-packed salad with mashed chickpeas and creamy avocado.",
-    image: "img/AvoChickpeaSalad.jpg",
+    image: "img/AvoChickpeaSalad.svg",
     ingredients: ["1 cup chickpeas", "1/2 avocado", "1 tomato", "1/4 onion", "Lemon juice", "Salt and pepper"],
     steps: [
       "Mash chickpeas and avocado together.",
@@ -187,7 +187,7 @@ const recipes = [
     title: "Banana Pancakes",
     category: "breakfast",
     description: "Fluffy pancakes made with mashed bananas and oats.",
-    image: "img/Banana pancake.jpg",
+    image: "img/Banana pancake.svg",
     ingredients: ["1 banana", "1/2 cup oats", "1 egg", "1/2 tsp baking powder", "Cinnamon"],
     steps: [
       "Mash banana and mix with oats, egg, baking powder, and cinnamon.",
@@ -200,7 +200,7 @@ const recipes = [
     title: "Sweet Potato Fries",
     category: "snack",
     description: "Baked sweet potato fries with paprika and olive oil.",
-    image: "img/Sweet-Potato-Fries.jpg",
+    image: "img/Sweet-Potato-Fries.svg",
     ingredients: ["2 sweet potatoes", "1 tbsp olive oil", "1 tsp paprika", "Salt and pepper"],
     steps: [
       "Cut sweet potatoes into fries.",

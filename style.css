@@ -295,7 +295,7 @@ Menu Ended
 .slide-box {
   background: 
   linear-gradient(to right, rgba(232, 245, 233, 0.8), rgba(241, 248, 233, 0.8)),
-  url("img/green.avif");
+  url("img/green.svg");
   overflow: hidden;
   height: 550px;
 }
@@ -394,7 +394,7 @@ Menu Ended
       text-align: center;
       height: 70vh;
       background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), 
-                  url('https://images.unsplash.com/photo-1510626176961-4b57d4fbad03') no-repeat center center/cover;
+                  url('img/green.svg') no-repeat center center/cover;
       color: white;
       font-family: Georgia, 'Times New Roman', Times, serif;
     }
@@ -418,7 +418,7 @@ Menu Ended
 .health-tip {
   background: 
     linear-gradient(rgba(201, 241, 180, 0.7), rgba(201, 241, 180, 0.7)), 
-    url("img/green-food.webp") no-repeat center/cover;
+    url("img/green-food.svg") no-repeat center/cover;
   color: #0a0101;
   padding: 60px 20px;
   height: auto;
@@ -525,7 +525,7 @@ Menu Ended
 /* Quote box started */
 .main-quote {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
-    url("img/bg.avif");
+    url("img/bg.svg");
   padding: 80px 0;
   
 }
@@ -884,7 +884,7 @@ footer {
 */
 
 .recipeContainer{
-  background: url("img/lightgreen.jpg");
+  background: url("img/lightgreen.svg");
   background-size: 60% ;
 }
 #recipe-header{
@@ -1031,7 +1031,7 @@ footer {
 
 */
 .calculatorContainer{
-  background: url("img/BG3.jpg");
+  background: url("img/BG3.svg");
   background-size: 100% 100%;
 
 }
@@ -1110,7 +1110,7 @@ footer {
 /*----------------------------------------------------*/
 
 .metabolic-section {
-  background: url("img/laden.jpg");
+  background: url("img/laden.svg");
   
   padding: 40px;
   border-radius: 12px;
@@ -1702,7 +1702,7 @@ form button:hover {
   position: relative;
   overflow: hidden;
   
-  background:  url("img/gym4.webp");
+  background:  url("img/gym4.svg");
 
 }
 
@@ -1964,7 +1964,7 @@ button:hover {
    Mindfulness Page Styles
 ========================== */
 #mindfulnessBG{
-  background-image: url("img/BG5.jpeg");
+  background-image: url("img/BG5.svg");
   background-size: 100%;
 }
 /* Layout */
